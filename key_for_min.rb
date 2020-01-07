@@ -7,11 +7,9 @@ def key_for_min_value(name_hash)
   name_hash.each {
     |k, v| 
 
-    if result == nil || price < name_hash[result]
-      result = name
+    if res == nil || v < name_hash[res]
+      res = k
     end
-  end
-  result
   }
   res
 end
