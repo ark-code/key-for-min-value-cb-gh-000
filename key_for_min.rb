@@ -6,15 +6,12 @@ def key_for_min_value(name_hash)
   tmp = 0
   name_hash.each {
     |k, v| 
-    if tmp = 0 
-      res = k 
-      tmp = v 
-    elsif v < tmp 
-      tmp = v 
-      res = k
-    else 
-      res 
+
+    if result == nil || price < name_hash[result]
+      result = name
     end
+  end
+  result
   }
   res
 end
